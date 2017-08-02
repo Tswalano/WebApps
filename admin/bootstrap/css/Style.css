@@ -1,0 +1,46 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: auto;
+    margin-top: auto;
+}
+.footer {
+  position:sticky;
+  bottom: 0;
+  width: 100%;
+    padding-top: 15px;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  height: auto;
+}
+
+#nav-label{
+    color: aquamarine;
+}
+
+#reg-form{
+    padding-left: 150px;
+    /*padding-top: 250px;*/
+    margin-top: 130px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#top-label{
+    padding-top: 70px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.img{
+    padding-right: 1000px;
+    margin-right: auto;
+}
